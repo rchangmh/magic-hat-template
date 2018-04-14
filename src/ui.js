@@ -49,13 +49,16 @@ export const Hovered = styled.div`
   background: white;
   width: 300px;
   height: 500px;
+  font-size: 15px;
   padding: 1em 1em;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
-  border-radius: 0.4rem;
+  border-radius: 0.28571429rem;
   border: 1px solid rgba(0, 0, 0, 0.09);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   &:hover {
     & h3 {
       pointer-events: none;
@@ -65,7 +68,7 @@ export const Hovered = styled.div`
 `
 
 export const Content = styled.div`
-  background: #3b3b3b;
+  background: lightskyblue;
   padding: 1em 1em;
   border-radius: 0.28571429rem;
   border: 1px solid rgba(34, 36, 38, 0.15);
